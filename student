@@ -1,0 +1,11 @@
+class student():
+    def __init__(self,name,Roll_No,marks):
+        self.name=name
+        self.Roll_No=Roll_No
+        self.marks=marks
+    def display(self):
+        print(self.name)
+        print(self.Roll_No)
+        print(self.marks)
+s=student("Ravi",101,85)
+s.display()
