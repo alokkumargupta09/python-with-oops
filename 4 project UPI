@@ -1,0 +1,18 @@
+class UPI:
+    def withdraw(self):
+        print("Withdraw through UPI")
+class CreditCard:
+    def withdraw(self):
+        print("Credit card withdrawal")
+class NetBanking:
+    def withdraw(self):
+        print("Net banking withdrawal")
+def cash(payment_method):
+    payment_method.withdraw()
+
+u = UPI()
+c = CreditCard()
+n = NetBanking()
+cash(u)
+cash(c)
+cash(n)
