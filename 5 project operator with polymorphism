@@ -1,0 +1,4 @@
+print(10+20)
+print("hello"+"Kprit")
+print(2*3)
+print("hi"*3)
