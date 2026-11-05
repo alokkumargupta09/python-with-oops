@@ -1,0 +1,10 @@
+class Animal():
+    def Eat(self):
+        print("Eating")
+class Dog(Animal):
+    def Speak(self):
+        print("Barking")
+d1=Dog()
+d2=Dog()
+d1.Eat()
+d2.Speak()
