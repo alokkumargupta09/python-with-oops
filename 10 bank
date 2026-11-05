@@ -1,0 +1,15 @@
+class Bank():
+    Branch="Secunderabad"
+    def Savings(self):
+        print("Savings Account")
+    def Query(self):
+        print("Help Desk")
+    def Withdrawl(self):
+        print("Cash Out")
+
+SBI=Bank()
+HDFC=Bank()
+Canara=Bank()
+SBI.Savings()
+print(Canara.Branch)
+HDFC.Withdrawl()
