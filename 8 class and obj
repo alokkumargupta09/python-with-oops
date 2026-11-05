@@ -1,0 +1,17 @@
+class Books():
+    name="Name of Book"
+    writer="V.SULTHAN"
+    
+    def Novel(self):
+        print("Name of Novel")
+    def Textbook(self):
+        print("Subject")
+    def Stories(self):
+        print("Ending")
+
+DLS=Books()
+SCN=Books()
+ABH=Books()
+DLS.Stories()
+print(SCN.writer)
+ABH.Textbook()
